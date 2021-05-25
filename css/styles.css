@@ -1,0 +1,235 @@
+/******************Tag elements*****************/
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+/*******************Title section***************/
+
+/*** Navigation Bar***/
+
+.navbar-brand{
+	font-family: 'PT Serif Caption', serif;
+	margin-left: 10px;
+	font-weight: bold;
+	color: #000;
+}
+
+.navbar-nav{
+	margin-right: 0 10px;
+}
+
+.nav-link{
+	font-size: 1.2rem;
+	color: #222831;
+}
+.nav-link:hover{
+	color: #eeeeee;
+	background-color: #393e46;
+}
+
+/*** Display container***/
+.display-content{
+	position: absolute;
+	color: #eeeeee;
+	top: 210px;
+}
+
+.display-content-move{
+  	top: 360px;
+}
+
+.display-image{
+	width: 100%;
+}
+
+.display-h1{
+	margin-left: 15px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 200px;
+}
+
+/*******************Explore section***************/
+.explore-div{
+	padding: 7% 15% 6%;
+}
+
+.container-explore{
+	margin: 50px 0;
+}
+
+.anchor-explore:link {
+	color: blue;
+	text-decoration: none;
+}
+
+.anchor-explore:hover {
+	color: red;
+}
+
+.explore-img{
+	width: 60%;
+}
+
+.explore-tag{
+	padding: 12%;
+	font-size: 1rem;
+	font-weight: bold;
+	line-height: 2;
+}
+/******************Places section ****************/
+
+.places{
+	margin: 0 20px 50px;
+}
+
+.container-places{
+	text-align: left;
+}
+
+.places-div{
+	padding: 10px;
+}
+
+.places-img{
+	width: 100%;
+
+}
+
+.places-details{
+	padding : 7% 0 7% 7%; 
+	border: 2px solid black;
+}
+
+h5.places-tag{
+	font-size: 1.5rem;
+}
+
+.places-tag{
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.places-star{
+	font-size: 1.2rem;
+}
+
+.places-review{
+	font-weight: bold;
+	font-size: 0.9rem;
+}
+
+.best-seller{
+	background-color: green;
+	color: white;
+	padding: 10px;
+	display: inline-block;
+}
+
+.btn{
+	height: 50px;
+	border-radius: 0px;
+}
+
+.book-button{
+   	width: 180px;
+  }
+
+/******************Testimonial section************/
+.carousel {
+	background-color: #A9F1DF;
+}
+
+.testimonials-text{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.testimonial-image{
+	border-radius: 100%;
+	margin: 20px;
+	width: 10%;
+}
+.fa-angle-left, .fa-angle-right{
+	color: #8e9775;
+	font-size: 50px;
+}
+
+
+#press {
+	background-color: #A9F1DF;
+	padding-bottom: 3%;
+}
+
+.press-logo{
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+
+
+
+.container-fluid {
+	padding: 7% 15%;
+}
+
+.footer-fab{
+	margin: 20px 10px;
+}
+
+/*******************Media queries*****************/
+@media screen and (max-width: 980px) {
+
+	.navbar-toggler{
+		height: 60px;
+	}
+
+	.navbar-brand{
+		font-size: 30px;
+	}
+
+	.navbar-toggler{
+		margin-right: 10px;
+		size: 50px;
+
+	}
+
+	.nav-link{
+	margin: 0 10px;
+	font-size: 20px;
+}
+
+	.navbar-img{
+		width: 110%;
+	}
+
+  .display-h1 {
+    font-size: 120px;
+    top: 60px;
+  }
+
+  .explore-img{
+	width: 50%;
+   }
+
+   .explore-tag{
+	padding: 12%;
+	font-size: 1.3rem;
+	font-weight: bold;
+	line-height: 2;
+}
+
+ 
+   .btn{
+   	width: 150px;
+	}
+
+
+   .book-button{
+   	width: 300px;
+   }
+
+   .nav-link{
+  		text-align: center;
+	}
+
+}

@@ -1,0 +1,63 @@
+/******************Tag elements*****************/
+body{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+/*******************Title section***************/
+
+/*** Navigation Bar***/
+.navbar{
+	margin: 10px;
+}
+
+.navbar-brand{
+	font-family: 'PT Serif Caption', serif;
+}
+
+.nav-link{
+}
+
+.intro-peaks{
+	text-align: left;
+}
+.peak-pic{
+	width: 100%;
+}
+
+h1{
+	margin: 10px;
+	padding: 5px;
+}
+
+#peaks{
+	margin: 20px;
+}
+.container-fluid {
+	padding: 7% 15%;
+}
+
+.row{
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	text-align: left;
+}
+
+.peak-name{
+	padding: 20px 20px 20px 0;
+	font-weight: bolder;
+	color: red;
+}
+.footer-fab{
+	margin: 20px 10px;
+}
+
+p{
+	margin: 20px;
+}
+
+/*******************Media queries*****************/
+@media screen and (max-width: 980px) {
+
+
+}
